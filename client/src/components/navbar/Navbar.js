@@ -41,7 +41,7 @@ const Navbar = () => {
   // console.log(user)
   const logout = () => {
     dispatch(logOut());
-    navigate("/");
+    navigate("/posts");
     setUser(null);
   };
   useEffect(() => {
